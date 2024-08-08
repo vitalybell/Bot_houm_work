@@ -6,7 +6,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from crud_functions import get_all_products
 
-api = "7457141033:AAGe79bjZCBU5QAUiqgVNG4IEPKUAEXChgQ"  # Please insert token before start.
+api = ""  # Please insert token before start.
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
